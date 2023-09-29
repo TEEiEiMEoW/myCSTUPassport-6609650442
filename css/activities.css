@@ -1,0 +1,115 @@
+@font-face {
+    font-family: omocat;
+    src: url("../font/omori.woff");
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: omocat;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: omocat;
+    text-align: center;
+    font-size: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff75;
+    border-radius: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: omocat;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+    font-size: 30px;
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 35px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1 {
+    font-family: omocat;
+    text-align: center;
+    font-size: 30px;
+}
+
+div.listFav {
+    margin: auto;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    background: #ffffff75;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 550px;
+}
+
+div.listFav2 {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 20px;
+    background: transparent;
+}
+
+ul.listFav {
+    font-family: omocat;
+    font-size: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+.c1 {
+    font-family: omocat;
+    font-size: 15px;
+    text-align: center;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.circular2 {
+    border-radius: 20%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.meclip {
+    position: relative;
+    text-align: center;
+    border-radius: 30%;
+}
